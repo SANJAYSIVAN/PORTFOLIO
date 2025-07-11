@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Portfolio Design System - Clean, modern, and professional */
+
+@layer base {
+  :root {
+    /* Core brand colors */
+    --background: 0 0% 100%;
+    --foreground: 224 71% 4%;
+
+    /* Subtle background variations */
+    --card: 0 0% 100%;
+    --card-foreground: 224 71% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 224 71% 4%;
+
+    /* Primary brand - Modern blue-gray */
+    --primary: 215 28% 17%;
+    --primary-foreground: 0 0% 98%;
+
+    /* Secondary tones */
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 215 28% 17%;
+
+    /* Muted elements */
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 13% 34%;
+
+    /* Accent for highlights */
+    --accent: 212 100% 47%;
+    --accent-foreground: 0 0% 98%;
+
+    /* States */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Borders and inputs */
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 215 28% 17%;
+
+    /* Design tokens */
+    --hero-gradient: linear-gradient(135deg, hsl(var(--background)) 0%, hsl(220 14% 98%) 100%);
+    --section-gradient: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(220 14% 99%) 100%);
+    --card-shadow: 0 1px 3px 0 hsl(var(--primary) / 0.1), 0 1px 2px 0 hsl(var(--primary) / 0.06);
+    --card-shadow-hover: 0 4px 6px -1px hsl(var(--primary) / 0.1), 0 2px 4px -1px hsl(var(--primary) / 0.06);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark backgrounds */
+    --background: 222 47% 11%;
+    --foreground: 213 31% 91%;
+
+    /* Card backgrounds - subtle change */
+    --card: 222 47% 11%;
+    --card-foreground: 213 31% 91%;
+
+    /* Popover backgrounds */
+    --popover: 222 47% 11%;
+    --popover-foreground: 213 31% 91%;
+
+    /* Primary - keep similar for consistency */
+    --primary: 213 31% 91%;
+    --primary-foreground: 222 47% 11%;
+
+    /* Secondary - subtle background change */
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 213 31% 91%;
+
+    /* Muted - subtle background change */
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+
+    /* Accent - keep the blue accent */
+    --accent: 212 100% 47%;
+    --accent-foreground: 213 31% 91%;
+
+    /* States */
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 213 31% 91%;
+
+    /* Borders and inputs - subtle */
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 212 100% 47%;
+
+    /* Sidebar colors */
+    --sidebar-background: 222 47% 11%;
+    --sidebar-foreground: 213 31% 91%;
+    --sidebar-primary: 212 100% 47%;
+    --sidebar-primary-foreground: 213 31% 91%;
+    --sidebar-accent: 217 33% 17%;
+    --sidebar-accent-foreground: 213 31% 91%;
+    --sidebar-border: 217 33% 17%;
+    --sidebar-ring: 212 100% 47%;
+
+    /* Update gradients for dark mode */
+    --hero-gradient: linear-gradient(135deg, hsl(222 47% 11%) 0%, hsl(217 33% 17%) 100%);
+    --section-gradient: linear-gradient(180deg, hsl(222 47% 11%) 0%, hsl(217 33% 14%) 100%);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
