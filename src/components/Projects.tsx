@@ -21,7 +21,7 @@ const Projects = () => {
       title: "CHATBOT FOR CIET",
       description: "A Chat Bot for College Related Queries that Helps Students and Parents By Providing Further needed Information without delay and real time queues.",
       image: project2,
-      github: "https://github.com/alexjohnson/ecommerce-landing",
+      github: "https://github.com/SANJAYSIVAN/CHAT-BOT",
       demo: "NOT AVAILABLE",
       technologies: ["HTML", "CSS", "JavaScript", "Flask" , "Mongo DB"]
     },
@@ -31,7 +31,7 @@ const Projects = () => {
       description: "Bankai Music Player is a clean and easy-to-use Local Device music player built with React. It lets you load songs from your device, manage playlists, and enjoy smooth playback with a modern, stylish interface that is still in developing phase.",
       image: project3,
       github: "error",
-      demo: "https://weather-dashboard-demo.vercel.app",
+      demo: "https://bankai-musicplayer.vercel.app",
       technologies: ["React 18", "Vite", "Type Script", "Tail Wind CSS", "Radix UI","React router DOM", "Embla"]
     }
   ];
