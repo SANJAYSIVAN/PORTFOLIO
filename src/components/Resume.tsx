@@ -79,7 +79,7 @@ const Resume = () => {
           </motion.div>
 
           <p className="text-sm text-muted-foreground">
-            Last updated: March 2025 • PDF Format • 1 page
+            Last updated: June 2026 • PDF Format • 1 page
           </p>
         </motion.div>
       </div>

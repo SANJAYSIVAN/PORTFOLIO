@@ -18,12 +18,12 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "CHATBOT FOR CIET",
-      description: "A Chat Bot for College Related Queries that Helps Students and Parents By Providing Further needed Information without delay and real time queues.",
+      title: "Digital Talent Management System",
+      description: "Full stack internship project built with Next.js, Express, and MongoDB for authentication, task management, role-based access, employee profiles, and dashboard analytics.",
       image: project2,
-      github: "https://github.com/SANJAYSIVAN/CHAT-BOT",
-      demo: "NOT AVAILABLE",
-      technologies: ["HTML", "CSS", "JavaScript", "Flask" , "Mongo DB"]
+      github: "https://github.com/SANJAYSIVAN/DIGITAL-TALENT-MANAGEMENT-SYSTEM",
+      demo: "https://digital-talent-management-system-teal.vercel.app",
+      technologies: ["HTML", "CSS", "JavaScript", "Next.js" ,"Node.js","Node Express", "Mongo DB","JWT Authentication","B-Crypt Password Hashing"]
     },
    {
       id: 3,

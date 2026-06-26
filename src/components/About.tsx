@@ -3,7 +3,7 @@ import { Card } from '@/components/ui/card';
 
 const About = () => {
   const skills = [
-    'Python', 'C Programming','HTML','CSS', 'JavaScript', 'React','Git', 'Responsive Design', 'Tailwind CSS','Java',
+    'Python', 'C Programming','HTML','CSS', 'JavaScript', 'React','Git hub', 'Responsive Design', 'Tailwind CSS','Java','AI&ML'
   ];
 
   const containerVariants = {
